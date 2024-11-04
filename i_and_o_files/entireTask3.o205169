@@ -1,0 +1,74 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: myscript.sh
+  The time limit is 12:00:00 HH:MM:SS.
+  The target directory is: /home/ualclsd0158/CS581/HW/HW4
+  The working directory is:  /scratch-local/ualclsd0158.entireTask3.205169.asax-pbs1
+  The memory limit is: 20gb
+  The job will start running after: 202411031408.12
+  Job Name: entireTask3
+  Queue: -q class -W group_list=classq
+  Constraints: 
+  Using  20  cores on master node  asax020.asc.edu
+  Node list:  asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu
+  Cores:  20
+  Command typed:
+/scripts/run_script_mpi myscript.sh     
+  Queue submit command:
+qsub -q class -W group_list=classq -j oe -N entireTask3 -a 202411031408.12 -r n -M ahahn1@crimson.ua.edu -l walltime=12:00:00 -l select=20:mpiprocs=1:mem=1000mb 
+ 
+hw4.c: In function 'main':
+hw4.c:257:10: warning: variable 'recvbuf_gather' set but not used [-Wunused-but-set-variable]
+  257 |     int *recvbuf_gather = NULL;
+      |          ^~~~~~~~~~~~~~
+hw4.c:110:9: warning: unused variable 'start_row' [-Wunused-variable]
+  110 |     int start_row = displs[rank] + 1; // Adding 1 for ghost cell
+      |         ^~~~~~~~~
+hw4.c:77:11: warning: unused variable 'outputFilePath' [-Wunused-variable]
+   77 |     char *outputFilePath = argv[4];
+      |           ^~~~~~~~~~~~~~
+Program exited after 5000 generations.
+Time taken: 3491.039733 seconds
+Program exited after 5000 generations.
+Time taken: 3473.065327 seconds
+Program exited after 5000 generations.
+Time taken: 3468.767097 seconds
+Program exited after 5000 generations.
+Time taken: 1749.599848 seconds
+Program exited after 5000 generations.
+Time taken: 1745.743605 seconds
+Program exited after 5000 generations.
+Time taken: 1746.949366 seconds
+Program exited after 5000 generations.
+Time taken: 876.042841 seconds
+Program exited after 5000 generations.
+Time taken: 875.344147 seconds
+Program exited after 5000 generations.
+Time taken: 876.584552 seconds
+Program exited after 5000 generations.
+Time taken: 441.579256 seconds
+Program exited after 5000 generations.
+Time taken: 441.370206 seconds
+Program exited after 5000 generations.
+Time taken: 438.833389 seconds
+Program exited after 5000 generations.
+Time taken: 353.056250 seconds
+Program exited after 5000 generations.
+Time taken: 353.245781 seconds
+Program exited after 5000 generations.
+Time taken: 370.146110 seconds
+Program exited after 5000 generations.
+Time taken: 223.266752 seconds
+Program exited after 5000 generations.
+Time taken: 223.296184 seconds
+Program exited after 5000 generations.
+Time taken: 223.511913 seconds
+Program exited after 5000 generations.
+Time taken: 180.309200 seconds
+Program exited after 5000 generations.
+Time taken: 179.926077 seconds
+Program exited after 5000 generations.
+Time taken: 181.727632 seconds
